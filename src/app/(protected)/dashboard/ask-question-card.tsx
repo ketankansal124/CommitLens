@@ -68,7 +68,7 @@ const AskQuestionCard = () => {
                                             toast.success("Answer Saved");
                                             refetch();
                                         },
-                                        onError: () => {
+                                    onError: () => {
                                             toast.error("Failed to save answer!")
                                         }
                                     })
@@ -94,7 +94,7 @@ const AskQuestionCard = () => {
                         <Textarea placeholder='Which file should i edit to change the Home Page?' value={question} onChange={e => setQuestion(e.target.value)} />
                         <div className="h-4"></div>
                         <Button type="submit" disabled={loading}>
-                            Ask Github
+                            Ask CommitLens
                         </Button>
                     </form>
                 </CardContent>

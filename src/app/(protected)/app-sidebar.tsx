@@ -20,16 +20,16 @@ const items = [
         url: "/qa",
         icon: Bot,
     },
-    {
-        title: "Meetings",
-        url: "/meetings",
-        icon: Presentation
-    },
-    {
-        title: "Billing",
-        url: "/billing",
-        icon: CreditCard
-    }
+    // {
+    //     title: "Meetings",
+    //     url: "/meetings",
+    //     icon: Presentation
+    // },
+    // {
+    //     title: "Billing",
+    //     url: "/billing",
+    //     icon: CreditCard
+    // }
 ]
 
 
@@ -46,7 +46,7 @@ export function AppSidebar() {
                     {
                         open && (
                             <h1 className="textxl font-bold text-primary/80">
-                                Github
+                                CommitLens
                             </h1>
                         )
                     }
